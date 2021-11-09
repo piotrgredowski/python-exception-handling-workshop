@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-exception-handling-workshop"
+version = "0.1.0"
+description = ""
+authors = ["Piotr Grędowski <pgred@orsted.com>"]
+readme = "README.md"
+packages = [{include = "python_exception_handling_workshop"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
